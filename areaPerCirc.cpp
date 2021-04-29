@@ -11,6 +11,6 @@ int main() {
   std::cout << "For a circle that has a radius\n";
   std::cout << "of 6cm:\n";
   std::cout << "\n";
-  std::cout << "Area = " << M_PI * pow(6, 2) << " cm^2\n";
-  std::cout << "Perimeter = " << 2*M_PI*6 << " cm\n";
+  std::cout << "Area = " << floor(M_PI * pow(6, 2)) << " cm^2\n";
+  std::cout << "Perimeter = " << floor(2*M_PI*6) << " cm\n";
 }
